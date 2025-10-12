@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Страница — 1" id="a_h6WFUu8HxPs71Ef5PZ">
+    <mxGraphModel dx="3160" dy="1597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v89MnAho1JyuOx4Jl5Iu-1" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rect;fillColor=#222222;strokeColor=none;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;align=center;container=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="50" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v89MnAho1JyuOx4Jl5Iu-7" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="60" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v89MnAho1JyuOx4Jl5Iu-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ProjectFlow&lt;/font&gt;&lt;/b&gt;" style="html=1;shadow=0;dashed=0;fillColor=none;strokeColor=none;shape=mxgraph.bootstrap.rect;fontColor=#999999;fontSize=14;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="100" y="50" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v89MnAho1JyuOx4Jl5Iu-9" value="Logo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="53.75" width="50" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="v89MnAho1JyuOx4Jl5Iu-12" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=1;strokeColor=light-dark(#222222, #ededed);shadow=0;dashed=0;shape=mxgraph.ios7.icons.info;fillColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="420" y="60" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v89MnAho1JyuOx4Jl5Iu-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#141414, #c1c1c1);strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v89MnAho1JyuOx4Jl5Iu-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Команда&lt;/font&gt;" style="html=1;shadow=0;dashed=0;fillColor=none;strokeColor=none;shape=mxgraph.bootstrap.rect;fontColor=#999999;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="220" y="50" width="162.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v89MnAho1JyuOx4Jl5Iu-15" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="60" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v89MnAho1JyuOx4Jl5Iu-21" value="" style="shape=triangle;strokeColor=none;fillColor=light-dark(#ffffff, #ededed);direction=south;rounded=0;shadow=1;fontSize=12;fontColor=#000000;align=center;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="68" width="8" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="bBlM3GvxPXfzdOBTzxCG-1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Задача TASK_NAME&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=27;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bBlM3GvxPXfzdOBTzxCG-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;rounded=1;fillColor=#ffffff;strokeColor=#DFE1E5;fontSize=12;align=left;fontColor=#000000;shadow=1;arcSize=1;whiteSpace=wrap;spacing=20;verticalAlign=top;spacingTop=30;pointerEvents=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="64" y="235" width="426" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="bBlM3GvxPXfzdOBTzxCG-3" value="Описание" style="dashed=0;html=1;fillColor=none;strokeColor=none;fontSize=20;align=left;fontStyle=0;fontColor=#000000;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="89.99917154692821" y="255.57820312500007" width="137.10743801652893" height="22.251796875" as="geometry" />
+        </mxCell>
+        <mxCell id="bBlM3GvxPXfzdOBTzxCG-4" value="СТАТУС" style="dashed=0;html=1;rounded=1;strokeColor=light-dark(#1f1f1f, #67b2ff);fontSize=12;align=center;fontStyle=1;strokeWidth=2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="64" y="190" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bBlM3GvxPXfzdOBTzxCG-5" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324.05999999999995" y="190" width="30.000451977401127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bBlM3GvxPXfzdOBTzxCG-6" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Исполнитель&lt;/font&gt;" style="html=1;shadow=0;dashed=0;fillColor=none;strokeColor=none;shape=mxgraph.bootstrap.rect;fontColor=light-dark(#000000, #6a6a6a);whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="339.0602259887005" y="175" width="150.93977401129942" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBlM3GvxPXfzdOBTzxCG-8" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;rounded=1;fillColor=#ffffff;strokeColor=#DFE1E5;fontSize=12;align=left;fontColor=#000000;shadow=1;arcSize=1;whiteSpace=wrap;spacing=20;verticalAlign=top;pointerEvents=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="64.53" y="940" width="425.47" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bBlM3GvxPXfzdOBTzxCG-9" value="Обновления" style="text;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="64" y="570" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bBlM3GvxPXfzdOBTzxCG-10" value="&lt;span style=&quot;text-align: right;&quot;&gt;Комментарий 1&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="78" y="952" width="236" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bBlM3GvxPXfzdOBTzxCG-11" value="&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;rounded=1;fillColor=#ffffff;strokeColor=#DFE1E5;fontSize=12;align=left;fontColor=#000000;shadow=1;arcSize=1;whiteSpace=wrap;spacing=20;verticalAlign=top;spacingTop=30;pointerEvents=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="64" y="630" width="426" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="bBlM3GvxPXfzdOBTzxCG-12" value="&lt;span style=&quot;text-align: right;&quot;&gt;Описание обновления&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="78" y="661.7" width="236" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bBlM3GvxPXfzdOBTzxCG-13" value="&lt;span style=&quot;text-align: right;&quot;&gt;Описание обновления&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="74" y="760" width="236" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bBlM3GvxPXfzdOBTzxCG-14" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Комментарии&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=27;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="68.52999999999997" y="890" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bBlM3GvxPXfzdOBTzxCG-16" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="429.99999999999994" y="955" width="30.000451977401127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bBlM3GvxPXfzdOBTzxCG-21" value="&lt;span style=&quot;text-align: right;&quot;&gt;Комментарий 2&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="78" y="1030" width="236" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bBlM3GvxPXfzdOBTzxCG-22" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1033" width="30.000451977401127" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
