@@ -1,0 +1,11 @@
+@startuml
+actor Менеджер as PM
+participant "ProjectFlow System" as System
+participant "Исполнитель" as Dev
+
+PM -> System : Создать новую задачу (заголовок, описание, исполнитель)
+System -> System : Добавление задачи в backlog
+System -> Dev : Уведомление о новой задаче
+Dev -> System : Принятие или комментарий к задаче
+System -> PM : Обновление статуса задачи/отображение в интерфейсе
+@enduml

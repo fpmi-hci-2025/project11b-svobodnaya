@@ -1,0 +1,38 @@
+@startuml
+skinparam rectangle {
+  BackgroundColor<<event>> #FFA500
+  BackgroundColor<<command>> #76B7B2
+  BackgroundColor<<actor>> #FFE599
+  BackgroundColor<<aggregate>> #FFE200
+  BackgroundColor<<external>> #F17676
+}
+
+actor Менеджер <<actor>>
+actor Разработчик <<actor>>
+
+rectangle "Запустить спринт" as CMD1 <<command>>
+rectangle "Спринт запущен" as EVT1 <<event>>
+rectangle "Взять задачу" as CMD2 <<command>>
+rectangle "Задача в работе" as EVT2 <<event>>
+rectangle "Обновить статус задачи" as CMD3 <<command>>
+rectangle "Статус задачи обновлён" as EVT3 <<event>>
+rectangle "Все задачи завершены" as EVT4 <<event>>
+rectangle "Закрыть спринт" as CMD4 <<command>>
+rectangle "Спринт завершён" as EVT5 <<event>>
+rectangle "Проект/Спринт" as AGG1 <<aggregate>>
+rectangle "Газета отчёт" as EVT6 <<event>>
+rectangle "Email/Slack" as EXT1 <<external>>
+
+Менеджер --> CMD1
+CMD1 --> EVT1
+Разработчик --> CMD2
+CMD2 --> EVT2
+EVT2 --> CMD3
+CMD3 --> EVT3
+EVT4 --> CMD4
+CMD4 --> EVT5
+EVT5 --> AGG1
+EVT6 --> EXT1
+
+note right: Aggregates и внешние системы показаны отдельными блоками.
+@enduml

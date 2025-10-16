@@ -1,0 +1,54 @@
+@startuml
+entity "Проект" as Project {
+  * id : int <<PK>>
+  --
+  название : string
+  статус : string
+}
+
+entity "Задача" as Task {
+  * id : int <<PK>>
+  --
+  заголовок : string
+  статус : string
+  исполнитель_id : int <<FK>>
+  проект_id : int <<FK>>
+}
+
+entity "Пользователь" as User {
+  * id : int <<PK>>
+  --
+  имя : string
+  email : string
+}
+
+entity "Команда" as Team {
+  * id : int <<PK>>
+  --
+  название : string
+}
+
+entity "Спринт" as Sprint {
+  * id : int <<PK>>
+  --
+  название : string
+  проект_id : int <<FK>>
+}
+
+entity "Комментарий" as Comment {
+  * id : int <<PK>>
+  --
+  текст : string
+  задача_id : int <<FK>>
+  автор_id : int <<FK>>
+}
+
+Project ||--o{ Task : "содержит"
+Task }|..|| User : "исполнитель"
+User ||--o{ Comment : "комментарии"
+Task ||--o{ Comment : "комментарии"
+Project ||--o{ Sprint : "спринты"
+Sprint ||--o{ Task : "задачи в спринте"
+User }|--|{ Team : "\nсостоит в"
+Team ||--o{ Project : "ведет проекты"
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+package ProjectFlow {
+  [Web-клиент] - [API-сервер] : REST
+  [Мобильное приложение] - [API-сервер] : REST, Push
+  [API-сервер] - [БД] : SQL
+  [API-сервер] - [Сервис аналитики] : ETL
+  [API-сервер] - [Сторонние интеграции] : Webhooks/API
+  [Сервис аналитики] - [БД]
+}
+@enduml

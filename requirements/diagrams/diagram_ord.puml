@@ -1,0 +1,22 @@
+@startuml
+entity "Project" as Project {
+  * id : int <<PK>>
+}
+entity "User" as User {
+  * id : int <<PK>>
+}
+entity "Team" as Team {
+  * id : int <<PK>>
+}
+entity "Project_Team_User" as PTU {
+  * id : int <<PK>>
+  проект_id : int <<FK>>
+  команда_id : int <<FK>>
+  пользователь_id : int <<FK>>
+  роль : string
+}
+
+Project ||--o{ PTU : "...состав проекта"
+Team ||--o{ PTU
+User ||--o{ PTU
+@enduml

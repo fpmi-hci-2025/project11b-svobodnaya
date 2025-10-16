@@ -1,0 +1,23 @@
+@startuml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(user, "Пользователь", "Пользуется системой для управления задачами и проектами")
+Person(admin, "Администратор", "Управляет пользователями и настройками")
+System_Boundary(s1, "ProjectFlow") {
+  Container(web, "Web-клиент", "React", "Ввод и анализ задач, Kanban, отчёты")
+  Container(mobile, "Мобильный клиент", "React Native", "Управление задачами, offline, push")
+  Container(api, "API-сервер", "Node.js/Express", "Бизнес-логика, доступ к данным, интеграции")
+  Container(db, "База данных", "PostgreSQL", "Данные пользователей, задач, проектов")
+  Container(analytics, "Сервис аналитики", "ETL/BI", "Отчёты, KPI, monitoring")
+  Container_Ext(int, "Внешние сервисы (Slack, Google, GitHub)", "API/Webhook")
+}
+user -> web : Веб-интерфейс
+user -> mobile : Push/Мобильное приложение
+web -> api : REST API
+mobile -> api : REST API, push
+api -> db : SQL
+api -> analytics : ETL, отчёты
+api -> int : Интеграции
+admin -> api : Admin endpoints
+@enduml

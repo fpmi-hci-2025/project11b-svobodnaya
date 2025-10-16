@@ -1,0 +1,19 @@
+@startuml
+' Event Modeling - добавление задачи в проект
+skinparam rectangle {
+    BackgroundColor<<Trigger>> #E6F0FA
+    BackgroundColor<<Command>> #84A9E6
+    BackgroundColor<<Event>>   #FFEC94
+    BackgroundColor<<View>>    #BDF7B7
+}
+rectangle "[Trigger] Пользователь на странице проекта" <<Trigger>> as T1
+rectangle "[Command] Создать задачу" <<Command>> as C1
+rectangle "[Event] Задача создана" <<Event>> as E1
+rectangle "[View] Доска задач обновлена" <<View>> as V1
+
+T1 -down-> C1 : Command Pattern
+C1 -down-> E1 : Событие фиксация
+E1 -right-> V1 : View Pattern
+
+note bottom: Диаграмма демонстрирует Event Modeling-фрагмент для сценария "добавить задачу".
+@enduml

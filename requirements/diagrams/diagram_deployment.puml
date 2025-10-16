@@ -1,0 +1,19 @@
+@startuml
+node Пользователь
+node Мобильное_устройство
+node Web_браузер
+node Облако {
+  node API_сервер
+  node "БД Postgres" as DB
+  node "Analytics Engine" as Analytics
+}
+node Интеграции
+
+Пользователь -- Мобильное_устройство
+Пользователь -- Web_браузер
+Мобильное_устройство -- API_сервер
+Web_браузер -- API_сервер
+API_сервер -- DB
+API_сервер -- Analytics
+API_сервер -- Интеграции
+@enduml

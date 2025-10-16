@@ -1,0 +1,28 @@
+@startuml
+left to right direction
+skinparam actorStyle awesome
+
+actor Менеджер as PM
+actor Разработчик as Dev
+actor "Руководство" as Boss
+actor Администратор as Admin
+
+rectangle ProjectFlow {
+  usecase "Создание проекта" as UC1
+  usecase "Планирование задач" as UC2
+  usecase "Выполнение задачи" as UC3
+  usecase "Аналитика по проектам" as UC4
+  usecase "Администрирование" as UC5
+}
+
+PM --> UC1
+PM --> UC2
+Dev --> UC3
+Boss --> UC4
+PM --> UC4
+Admin --> UC5
+Boss --> UC5 : (мониторинг прав)
+
+@enduml
+
+' Диаграмма отражает ключевые взаимодействия акторов системы ProjectFlow. Каждый кейс описан в подробных сценариях ниже (см. documentation).

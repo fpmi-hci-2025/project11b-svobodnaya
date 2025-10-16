@@ -1,0 +1,10 @@
+@startuml
+actor Руководитель
+participant "ProjectFlow System" as System
+participant "БД" as DB
+
+Руководитель -> System : Запросить отчет по проекту
+System -> DB : Запрос данных и метрик
+DB --> System : Данные, KPI, отчеты
+System -> Руководитель : Отправить визуальный отчет (dashboard)
+@enduml
